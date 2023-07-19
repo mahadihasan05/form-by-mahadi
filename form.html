@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registation form</title>
+    <header>
+        <image src="media/IMG_2766.JPG" height="250" width="1000">
+    </header>
+<style>
+    label{
+        display:block;
+        margin:10px;
+    }
+    fieldset{
+        background-color: rgb(242, 242, 245);
+    }
+    legend{
+        color:lightblue;
+        font-size: 50px;
+    }
+    h2{
+        color:rgb(4, 30, 30);
+        border:15px;
+    }
+    input{
+        background-color:rgb(91, 235, 189);
+        border-color: black;
+        border:10px;
+    }
+    id{
+        background-color: red;
+    }
+</style>
+</head>
+<body>
+    <h2 div align="center">Welcome to millat madrasha</h2>
+    <form >
+        <label for="name">Your name :
+            <input id="name" type="text" placeholder="Your name">
+        </t>
+        <label for="email">Your email:
+            <input id="email" type="email" placeholder="your email">
+        </label>
+        <label for="number">Your number:
+            <input id="number" type="number" placeholder="your number">
+        </label>
+        <fieldset>
+            <legend>Pick one option</legend>
+            <label for="science">
+                <input type="radio" name="option" id="science">science
+            </label>
+            <label for="arts">
+                <input type="radio" name="option" id="arts">arts
+            </label>
+            <label for="commers">
+                <input type="radio" name="option" id="commers">commers
+            </label>
+                <input type="radio" name="option" id="commers">commers
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend> select gender</legend>
+            <label for="male">
+                <input type="checkbox" name="tap one" id="male">male
+            </label>
+            <label for="female">
+                <input type="checkbox" name="tap one" id="female">female
+            </label>
+        </fieldset><br>
+        <fieldset>
+        <legend> write some word here:</legend>
+        <textarea rows="10" cols="100" placeholder="TelL me about your self"></textarea>
+</fieldset>
+<label for="submit">
+    <input type="submit" name="submit" id="submit">
+</label>
+    </form>
+</body>
+</html>
